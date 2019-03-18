@@ -1,10 +1,10 @@
 package name.yalsooni.genius.paperfactory.execute;
 
-import name.yalsooni.genius.common.definition.Service;
-import name.yalsooni.genius.common.definition.annotation.Delegate;
-import name.yalsooni.genius.common.definition.annotation.Entry;
+import name.yalsooni.genius.core.common.definition.Service;
+import name.yalsooni.genius.core.common.definition.annotation.Delegate;
+import name.yalsooni.genius.core.common.definition.annotation.Entry;
+import name.yalsooni.genius.core.util.Log;
 import name.yalsooni.genius.paperfactory.definition.PropertyName;
-import name.yalsooni.genius.util.Log;
 
 /**
  * 문자 치환 유틸.
@@ -33,8 +33,6 @@ public class PaperFactory {
             Log.console(e);
             return;
         }
-
-
     }
 
     @Entry

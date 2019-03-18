@@ -1,10 +1,11 @@
 package name.yalsooni.genius.paperfactory.execute;
 
+import name.yalsooni.genius.core.common.definition.LifeCycle;
+import name.yalsooni.genius.core.util.Log;
+import name.yalsooni.genius.core.util.excel.ExcelReader;
 import name.yalsooni.genius.paperfactory.definition.ExcelReadIdx;
 import name.yalsooni.genius.paperfactory.util.FactoryExeHelper;
 import name.yalsooni.genius.paperfactory.util.FactoryInitHelper;
-import name.yalsooni.genius.util.Log;
-import name.yalsooni.genius.util.excel.ExcelReader;
 
 import java.util.List;
 import java.util.Map;
@@ -12,7 +13,7 @@ import java.util.Map;
 /**
  * Created by ijyoon on 2017. 4. 19..
  */
-public class PaperFactoryService {
+public class PaperFactoryService implements LifeCycle {
 
     private String propertyFilePath;
 
