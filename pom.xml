@@ -6,7 +6,7 @@
 
     <groupId>name.yalsooni</groupId>
     <artifactId>genius-paperfactory</artifactId>
-    <version>1.0.01</version>
+    <version>1.0.0</version>
 
     <build>
         <plugins>
