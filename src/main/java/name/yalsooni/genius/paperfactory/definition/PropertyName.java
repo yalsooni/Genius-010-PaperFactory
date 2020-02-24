@@ -7,13 +7,16 @@ package name.yalsooni.genius.paperfactory.definition;
 public interface PropertyName {
 
     String PROPERTYNAME = "PAPERFACTORY";
-    String LIST_FILTER = "FilterList";
 
-    String DEFAULT_PROPERTIES_FILE_PATH = "../property/010_paperfactory.properties";
-
-    String DATAEXCELFILEPATH = "PAPERFACTORY.DATAEXCELFILEPATH";
+    String INPUT_CLASS_NAME = "PAPERFACTORY.INPUT_CLASS";
+    String OUPUT_CLASS_NAME = "PAPERFACTORY.OUTPUT_CLASS";
     String FILTERLIST = "PAPERFACTORY.FILTERLIST";
+    String INPUT_PROPERTY_PATH = "PAPERFACTORY.INPUT.PROPERTY_PATH";
+    String OUTPUT_PROPERTY_PATH = "PAPERFACTORY.OUTPUT.PROPERTY_PATH";
 
-    String LIST_SHEETNAME = "TemplateList";
+    String PROPERTYNAME_FILTER = "FilterList";
 
+    String DEFAULT_PROPERTIES_FILE_PATH = "../property/pf.properties";
+    String DEFAULT_TEMPLATEREGISTER_PROPERTY_PATH = "../property/TemplateRegister.properties";
+    String DEFAULT_DATATODB_PROPERTY_PATH = "../property/DataToDB.properties";
 }
