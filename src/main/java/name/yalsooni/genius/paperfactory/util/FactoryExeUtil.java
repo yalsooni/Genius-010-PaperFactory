@@ -1,7 +1,6 @@
 package name.yalsooni.genius.paperfactory.util;
 
 import name.yalsooni.genius.paperfactory.definition.ExtType;
-import name.yalsooni.genius.paperfactory.definition.Process;
 
 import java.util.HashMap;
 import java.util.List;
@@ -29,6 +28,12 @@ public class FactoryExeUtil {
         return false;
     }
 
+    /**
+     * 두개의 리스트를 하나의 맵으로 합친다
+     * @param keys
+     * @param values
+     * @return
+     */
     public static Map<String, String> listToMapMerge(List<String> keys, List<String> values){
         Map<String, String> resultMap = new HashMap<String, String>();
 

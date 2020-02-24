@@ -1,7 +1,7 @@
-# Genius - 010. PaperFactory
+# Genius - PaperFactory
 
 템플릿 문서와 데이터 엑셀을 기반으로 새로운 파일을 생성하는 유틸이다.
-* [Download](https://github.com/yalsooni/Genius/releases/tag/v1.0)
+* [Download](https://github.com/yalsooni/Genius-PaperFactory/releases)
 
 ~~~
 지원 확장자 : xlsx, docx, pptx, 기타 텍스트 파일 (txt, xml, html ....)
@@ -9,16 +9,16 @@
 
 ## 1. 프로퍼티 설정
 
- - 010_paperfactory.properties - 기본설정 파일
+ - pf.properties - 기본설정 파일
 
 ~~~
  - PAPERFACTORY.DATAEXCELFILEPATH : 데이터 엑셀의 경로
  - PAPERFACTORY.FILTERLIST : 필터 목록 파일의 경로
 ~~~
 
- - 010_paperfactory.list - 필터 목록 파일
+ - pf_filter.list - 필터 목록 파일
 
-> name.yalsooni.genius.paperfactory.filter.PaperFactoryFilter 인터페이스를 구현한 클래스.
+> name.yalsooni.genius.paperfactory.definition.filter.PaperFactoryFilter 인터페이스를 구현한 클래스.
 ~~~
  #Column Name = Filter class
  FILTER_COLUMN = ex.test.MyFilter
@@ -35,8 +35,6 @@
     순번
  - TemplateID
     데이터가 저장되어있는 Sheet 이름
- - TemplateDirectoryPath
-    템플릿 파일의 루트 디렉토리 경로
  - TARGET
     'T' 일 경우 수행, 나머지 값은 무시.
 ~~~
