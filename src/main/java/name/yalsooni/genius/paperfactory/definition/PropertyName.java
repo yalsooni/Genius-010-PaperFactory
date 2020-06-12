@@ -17,6 +17,4 @@ public interface PropertyName {
     String PROPERTYNAME_FILTER = "FilterList";
 
     String DEFAULT_PROPERTIES_FILE_PATH = "../property/pf.properties";
-    String DEFAULT_TEMPLATEREGISTER_PROPERTY_PATH = "../property/TemplateRegister.properties";
-    String DEFAULT_DATATODB_PROPERTY_PATH = "../property/DataToDB.properties";
 }
