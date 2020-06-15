@@ -47,7 +47,7 @@ public class ExcelFileReader extends AbstractInputData {
         for ( int idx = 0; idx < listIdx; idx++){
             Map<String, String> row = list.get(idx);
             if(!row.get(IS_TARGET_COULMN_NM).equals(EXTargetState.TARGET)){
-                row.remove(idx);
+                list.remove(idx);
                 idx -= 1;
                 listIdx -= 1;
             }
