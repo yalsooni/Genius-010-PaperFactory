@@ -59,8 +59,6 @@ public class FileOutputData extends AbstractOutputData {
         fos.write(output);
         fos.flush();
         fos.close();
-
-//        FILE_SUPPORT.dataToFile(new File(outputPath + "/" + outputName), convertedData);
     }
 
     @Override
