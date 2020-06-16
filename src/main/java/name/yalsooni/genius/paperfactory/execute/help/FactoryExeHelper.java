@@ -54,7 +54,7 @@ public class FactoryExeHelper {
                     Log.console("["+ newKeyNameForLog+"] -- Template data replace on stream, start.");
 
                     if(isZipFile(templateSource.getTemplateName())){
-                         replaceOnZipStream(service, templateSource.getTemplateSeq(), templateSource.getTemplateFile(), outputStream, dataRow);
+                        replaceOnZipStream(service, templateSource.getTemplateSeq(), templateSource.getTemplateFile(), outputStream, dataRow);
                     }else{
                         replaceOnStream(service, templateSource.getTemplateSeq(), inputStream, outputStream, dataRow);
                     }
